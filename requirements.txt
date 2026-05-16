@@ -1,2 +1,23 @@
-lightagent
-mem0ai
+# Filos v2.0 — Hermes-Powered Hybrid
+# Requirements
+
+# ── Hermes Agent (replaces LightAgent) ────────────────────────────────────────
+hermes-agent>=0.1.0
+
+# ── Memory ────────────────────────────────────────────────────────────────────
+# SQLite is stdlib — no extra dep needed
+
+# ── Voice Layer ───────────────────────────────────────────────────────────────
+# Piper TTS — install separately (binary)
+# Whisper STT
+openai-whisper>=20231117
+
+# ── Telegram ──────────────────────────────────────────────────────────────────
+python-telegram-bot>=20.0
+
+# ── Gemini Flash fallback ─────────────────────────────────────────────────────
+google-generativeai>=0.5.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+requests>=2.31.0
